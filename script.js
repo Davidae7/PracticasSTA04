@@ -1,4 +1,4 @@
-document.getElementById("buscar").addEventListener('click', function(){
+document.getElementsByClassName("boton").addEventListener('click', function(){
 
     fetch('http://www.omdbapi.com/?apikey=8053f2df&t=pokemon')
       .then(response => response.json())
