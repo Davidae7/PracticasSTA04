@@ -1,4 +1,4 @@
-document.getElementById("boton").addEventListener('click', function(){
+/*document.getElementById("boton").addEventListener('click', function(){
     let nombre = document.getElementById('nombre').value;
     
     fetch('http://www.omdbapi.com/?apikey=8053f2df&t=' + encodeURIComponent(nombre))
@@ -7,4 +7,14 @@ document.getElementById("boton").addEventListener('click', function(){
             console.log(json);
             alert(`Director: ${json.Director}, Año: ${json.Year}`);
         })
-});
+});*/
+document.getElementById("boton").addEventListener('click', function(){
+    let nombre = document.getElementById('nombre').value;
+    
+    fetch('http://localhost:5000=' + encodeURIComponent(nombre))
+        .then(response => response.json())
+        .then(json => {
+            console.log(json);
+            alert(`Director: ${json.Director}, Año: ${json.Year}`);
+        })
+    });

@@ -1,0 +1,29 @@
+{
+    "Peliculas":[
+            {
+            "Title": "Pokemon 4Ever: Celebi - Voice of the Forest",
+            "Year": "2001",
+            "Rated": "G",
+            "Released": "11 Oct 2002",
+            "Runtime": "75 min",
+            "Genre": "Animation, Action, Adventure",
+            "Director": "Kunihiko Yuyama, Jim Malone",
+            "Writer": "Hideki Sonoda, Satoshi Tajiri, Jun'ichi Masuda",
+            "Actors": "Veronica Taylor, Rica Matsumoto, Rachael Lillis",
+            "Plot": "Ash must stop a hunter who forces the mythical Pokémon Celebi to help him destroy a forest."
+        },
+
+        {
+            "Title": "Resacón en China",
+            "Year": "2019",
+            "Rated": "N/A",
+            "Released": "24 Nov 2019",
+            "Runtime": "N/A",
+            "Genre": "Comedy",
+            "Director": "Vicesat",
+            "Writer": "Vicesat",
+            "Actors": "Croqueta, Vicesat",
+            "Plot": "One company offers a full-paid travel to Shenzhen to a Youtuber to show it's commercial ideas. He offers his best friend to go along and the trip goes insane."
+        }
+    ]
+}
